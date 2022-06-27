@@ -2,7 +2,6 @@ import * as sqlite3 from 'sqlite3'
 
 export const db = new sqlite3.default.Database('./src/infra/data/database.db');
 
-
 const TIPS_SCHEMA = `
 CREATE TABLE IF NOT EXISTS "TIPS" (
     "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
